@@ -1,17 +1,12 @@
 package com.schindler.demo.model;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
-
 //@Entity
 //@Table(name = "abcd")
 public class Abcd {
-    @Id
-    @Column(name = "id")
+   // @Id
+  //  @Column(name = "id")
     private String id;
-    @Column(name = "name")
+    //@Column(name = "name")
     private String name;
 
     public String getId() {

@@ -1,17 +1,13 @@
 package com.schindler.demo.model;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
 
-@Entity
-@Table(name= "rna")
+//@Entity
+//@Table(name= "rna")
 public class Rna {
-    @Column
-    @Id
+ //   @Column
+  //  @Id
     private int id;
-    @Column
+   // @Column
     private String upi;
 
     public int getId() {
